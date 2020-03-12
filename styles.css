@@ -1,10 +1,11 @@
 body, html{
   height:100%;
+  overflow: hidden;
 }
 body{
-  margin: 0px;
-  background-color:#444;
-  font-size: 18px;
+
+  background: url("https://cdn.wallpapersafari.com/29/78/oulzMx.jpg") no-repeat fixed center;
+  background-size: cover;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -15,13 +16,29 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color:rgb(11, 5, 56);
 }
 .title{
-  background-color: #777;
+  background-color: rgb(11, 5, 56);
 }
 .blinkyDancer{
-  border:10px solid red;
-  border-radius:10px;
+  background: url("https://lh3.googleusercontent.com/proxy/AcsISMBDq_Uof-U6ABOOtMqw8Zv_MVMxJu6l1jpHq6TCDmLIuwChXiwVmjMvCtTDY3lsXkTsGJC1kOZA096j4MLOK7rLIfMX") no-repeat;
+  height: 40%;
+  width: 40%;
   position:absolute;
+}
+
+.donkeyDancer{
+  background: url("https://img.clipartlook.com/space-invaders-clipart-sponsored-link-320.png") no-repeat;
+  height: 40%;
+  width: 40%;
+  position: absolute;
+
+}
+
+.galagaDancer{
+  background: url("https://arcadedanceparty.s3.us-east-2.amazonaws.com/UFO+(1).png") no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
