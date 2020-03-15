@@ -9,7 +9,7 @@ var MakeDancer = function(top, left, timeBetweenSteps) {
   this.$node = $('<span class="dancer"></span>');
 
   this.step();
-  this.setPosition(top, left);
+  // this.setPosition(top, left);
   
   
 };
@@ -27,5 +27,12 @@ MakeDancer.prototype.setPosition = function(top, left) {
     top: top,
     left: left
   };
+
+MakeDancer.prototype.lineup = function () {
+  var style = (top, 0);
   this.$node.css(styleSettings);
+}
+MakeDancer.prototype.breakLine = function() {
+  this.setPosition($('body').height() * Math.random(), $('body').width() * Math.random());
+ };
 };
